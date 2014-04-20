@@ -99,4 +99,40 @@ class LivreController {
             redirect(action: "show", id: id)
         }
     }
+	def search() {
+		
+		params.max = Math.min(params.max?.toInteger() ?: 5, 100)
+		params.offset = params.offset ? params.offset.toInteger() : 0
+		def session = request.getSession(true);
+		if(request.getParameter("tf_titre") != null) {
+			session.setAttribute("titre", "%" + request.getParameter("tf_titre") + "%")
+			session.setAttribute("type", "%" + request.getParameter("tf_type") + "%")
+			session.setAttribute("auteur", "%" + request.getParameter("tf_auteur") + "%")
+
+		}
+		def titre = session.getAttribute("titre")
+		def type = session.getAttribute("type")
+		def auteur = session.getAttribute("auteur")
+		
+		
+		
+
+		
+		def criteria = Livre.createCriteria()
+		def livres = criteria.list(params){
+			'in' ("type", TypeDocument.findAllByIntituleIlike(type))
+			'or' {
+					auteurs { ilike("nom", auteur) }
+					auteurs { ilike ("prenom", auteur) }
+				}
+			'ilike' ("titre", titre)
+		   
+		}
+		
+		
+			 [livreInstanceList:livres, livreInstanceTotal: livres.totalCount]
+		
+		
+
+	}
 }

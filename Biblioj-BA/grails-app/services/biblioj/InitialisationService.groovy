@@ -23,7 +23,7 @@ class InitialisationService {
 			
 			def livre1 = new Livre(type: LivreAdo,titre: "Hunger games [Texte imprimé]",nombreExemplaires :10,nombreExemplairesDisponibles : 0)
 			livre1.addToAuteurs(collins).save(failOnError : true)
-			livre1.addToAuteurs(mrakami).save(failOnError : true)
+			livre1.addToAuteurs(murakami).save(failOnError : true)
 			
 			def livre2 = new Livre(type: Nouvaute,titre: "La couleur des sentiments",nombreExemplaires :10,nombreExemplairesDisponibles : 10)
 			livre2.addToAuteurs(stockett).save(failOnError : true)
