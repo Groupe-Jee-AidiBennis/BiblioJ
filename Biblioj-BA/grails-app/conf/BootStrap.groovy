@@ -1,7 +1,16 @@
+import biblioj.InitialisationService;
+
 class BootStrap {
 
-    def init = { servletContext ->
-    }
-    def destroy = {
-    }
+	InitialisationService initialisationService
+	
+		def init = { servletContext ->
+			environments {
+				development {
+					initialisationService.initialiserDonnees()
+				}
+			}
+		}
+		def destroy = {
+		}
 }
