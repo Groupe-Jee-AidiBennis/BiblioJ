@@ -113,11 +113,6 @@ class LivreController {
 		def titre = session.getAttribute("titre")
 		def type = session.getAttribute("type")
 		def auteur = session.getAttribute("auteur")
-		
-		
-		
-
-		
 		def criteria = Livre.createCriteria()
 		def livres = criteria.list(params){
 			'in' ("type", TypeDocument.findAllByIntituleIlike(type))

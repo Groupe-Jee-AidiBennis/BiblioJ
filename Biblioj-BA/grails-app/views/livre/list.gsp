@@ -19,7 +19,7 @@
 						code="default.home.label" /></a></li>
 			<li><a  href="${createLink(uri: '/reservation/list')}"><g:message
 						code="default.reservation.label" /></a></li>
-				<li><g:form action="search" method="post">
+		<li><g:form action="search" method="post">
 		<g:textField name="tf_titre" placeholder="Titre" />
 		<g:textField name="tf_type" placeholder="Type" />
 		<g:textField name="tf_auteur" placeholder="Auteur"  />
