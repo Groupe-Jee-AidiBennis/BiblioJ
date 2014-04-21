@@ -19,7 +19,7 @@ class Reservation {
 	public String toString() {
 		return code;
 	}
-	def boolean ajouterLivre(Long id) {
+	def boolean ajouterLivre(int id) {
 		if(Livre.findById(id) == null) {
 			return false
 		}
@@ -47,7 +47,7 @@ class Reservation {
 		return true
 	}
 					
-	def boolean supprimerExemplaireLivre(Long id) {
+	def boolean supprimerExemplaireLivre(int id) {
 		for (livre in livres) {
 			if(livre.id == id) {
 				

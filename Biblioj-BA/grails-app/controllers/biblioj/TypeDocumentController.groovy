@@ -11,7 +11,7 @@ class TypeDocumentController {
     }
 
     def list(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 5, 100)
         [typeDocumentInstanceList: TypeDocument.list(params), typeDocumentInstanceTotal: TypeDocument.count()]
     }
 

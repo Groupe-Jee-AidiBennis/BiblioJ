@@ -84,7 +84,7 @@
 										test="${fieldValue(bean: livreInstance, field: "nombreExemplairesDisponibles") != '0'}">
 										<center>
 										<g:link controller="reservation"
-											action="ajouterDansListLivreReservation"
+											action="ajouterAuPanier"
 											id="${livreInstance.id}">Ajouter au panier</g:link>
 											</center>
 									</g:if>
@@ -120,7 +120,7 @@
 								<tr>
 									<td><center><g:link controller="livre" action="show" id="${l.id}">${l.titre}</g:link> </center></td>
 									
-									<td><center><g:link controller="reservation" action="deleteBookFromCurrentReservation" id="${l.id}">Supprimer</g:link></center></td>
+									<td><center><g:link controller="reservation" action="supprimerDuPanier" id="${l.id}">Supprimer</g:link></center></td>
 									
 								</tr>
 							</g:each>
@@ -128,7 +128,7 @@
 						
 						<div align="center" class="nav" role="navigation">
 						<al>
-						<la><g:link controller="reservation" action="deleteBookAllExemplariesFromCurrentReservation"><g:message
+						<la><g:link controller="reservation" action="supprimerTout"><g:message
 						code="default.vider.label" /></g:link>
 						</la>
 						

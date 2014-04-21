@@ -11,7 +11,7 @@ class AuteurController {
     }
 
     def list(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 5, 100)
         [auteurInstanceList: Auteur.list(params), auteurInstanceTotal: Auteur.count()]
     }
 

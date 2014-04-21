@@ -18,7 +18,7 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><center><a href="http://localhost:8080/ProjBiblioJ/"><img width="400px" height="100px" src="${resource(dir: 'images', file: 'bib.png')}" alt="Grails"/></a></center></div>
+		<div id="grailsLogo" role="banner"><center><a href="http://localhost:8080/Biblioj-BA/"><img width="400px" height="100px" src="${resource(dir: 'images', file: 'bib.png')}" alt="Grails"/></a></center></div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>

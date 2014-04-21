@@ -13,7 +13,7 @@ class ReservationController {
 	}
 
 	def list(Integer max) {
-		params.max = Math.min(max ?: 10, 100)
+		params.max = Math.min(max ?: 5, 100)
 		[reservationInstanceList: Reservation.list(params), reservationInstanceTotal: Reservation.count()]
 	}
 
@@ -106,7 +106,7 @@ class ReservationController {
 			redirect(action: "show", id: id)
 		}
 	}
-	def ajouterDansListLivreReservation(int id){
+	def ajouterAuPanier(int id){
 		def session = request.getSession(true);
 		if(session.getAttribute("reservationEnCours") == null) {
 			session.setAttribute("reservationEnCours", new Reservation(code : "NULL"))
@@ -124,7 +124,7 @@ class ReservationController {
 		redirect(controller : "livre", action: "list")
 		
 	}
-	def deleteBookFromCurrentReservation(Long id) {
+	def supprimerDuPanier(int id) {
 		def reservationEnCours = (Reservation) session.getAttribute("reservationEnCours");
 		def done = reservationEnCours.supprimerExemplaireLivre(id)
 		if(done) {
@@ -135,7 +135,7 @@ class ReservationController {
 		
 		redirect(controller : "livre", action: "list")
 	}
-	def deleteBookAllExemplariesFromCurrentReservation() {
+	def supprimerTout() {
 		session.invalidate();
 		redirect(controller : "livre", action: "list")
 	}
