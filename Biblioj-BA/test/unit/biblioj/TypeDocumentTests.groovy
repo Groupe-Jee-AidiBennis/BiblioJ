@@ -11,7 +11,18 @@ import org.junit.*
 @TestFor(TypeDocument)
 class TypeDocumentTests {
 
-    void testSomething() {
-       fail "Implement me"
+    void testConstraintIntituleNull() {
+       def typeDocument = new TypeDocument()
+	   assertFalse typeDocument.validate()
     }
+	
+	void testConstraintIntituleBlank() {
+		def typeDocument = new TypeDocument(intitule : "")
+		assertFalse typeDocument.validate()
+	}
+	
+	void testConstraintsValidees() {
+		def typeDocument = new TypeDocument(intitule : "News ")
+		assertTrue typeDocument.validate()
+	}
 }
