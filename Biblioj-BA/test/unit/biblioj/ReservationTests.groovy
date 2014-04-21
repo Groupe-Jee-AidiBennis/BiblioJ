@@ -11,6 +11,7 @@ import org.junit.*
 @TestFor(Reservation)
 class ReservationTests {
 
+	
 
     void testConstraintCodeNull() {
        def reservation = new Reservation();
