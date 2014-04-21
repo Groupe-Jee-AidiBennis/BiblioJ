@@ -1,0 +1,116 @@
+Testsuite: biblioj.ReservationControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 1,049 sec
+------------- Standard Output ---------------
+--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testEdit took 0,381 sec
+	FAILED
+Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@421a09a1 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@421a09a1 (toString() == null)
+
+	at biblioj.ReservationControllerTests.testEdit(ReservationControllerTests.groovy:80)
+
+Testcase: testSave took 0,096 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/reservation/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72c2ea35
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/reservation/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72c2ea35
+
+	at biblioj.ReservationControllerTests.testSave(ReservationControllerTests.groovy:48)
+
+Testcase: testCreate took 0,071 sec
+Testcase: testShow took 0,077 sec
+	FAILED
+Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@46fff62d (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@46fff62d (toString() == null)
+
+	at biblioj.ReservationControllerTests.testShow(ReservationControllerTests.groovy:62)
+
+Testcase: testList took 0,062 sec
+Testcase: testIndex took 0,063 sec
+Testcase: testUpdate took 0,07 sec
+	FAILED
+Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@55477b87 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@55477b87 (toString() == null)
+
+	at biblioj.ReservationControllerTests.testUpdate(ReservationControllerTests.groovy:100)
+
+Testcase: testDelete took 0,111 sec
+	FAILED
+Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@4e0848c4 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert reservation.save() != null
+       |           |      |
+       |           null   false
+       biblioj.Reservation@4e0848c4 (toString() == null)
+
+	at biblioj.ReservationControllerTests.testDelete(ReservationControllerTests.groovy:144)
+

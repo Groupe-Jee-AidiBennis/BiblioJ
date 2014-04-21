@@ -1,0 +1,28 @@
+Testsuite: biblioj.LivreTests
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0,359 sec
+------------- Standard Output ---------------
+--Output from testConstraintTitreNull--
+--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
+--Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testConstraintTitreNull--
+--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
+--Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
+------------- ---------------- ---------------
+
+Testcase: testConstraintTitreNull took 0,101 sec
+Testcase: testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull took 0,013 sec
+Testcase: testConstraintNombreExemplairesDisponiblesMinValue took 0,014 sec
+Testcase: testConstraintsValidees took 0,014 sec
+Testcase: testToString took 0,014 sec
+Testcase: testConstraintTypeDocumentNull took 0,013 sec
+Testcase: testConstraintNombreExemplairesMinValue took 0,014 sec

@@ -1,0 +1,31 @@
+Testsuite: biblioj.AuteurTests
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0,385 sec
+------------- Standard Output ---------------
+--Output from testConstraintNomNull--
+--Output from testConstraintPrenomNull--
+--Output from testConstraintNomBlank--
+--Output from testConstraintPrenomBlank--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testConstraintNomNull--
+--Output from testConstraintPrenomNull--
+--Output from testConstraintNomBlank--
+--Output from testConstraintPrenomBlank--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+------------- ---------------- ---------------
+
+Testcase: testConstraintNomNull took 0,098 sec
+Testcase: testConstraintPrenomNull took 0,023 sec
+Testcase: testConstraintNomBlank took 0,017 sec
+Testcase: testConstraintPrenomBlank took 0,02 sec
+Testcase: testConstraintsValidees took 0,018 sec
+Testcase: testToString took 0,027 sec
+Testcase: testConstraintNomNullPrenomNull took 0,023 sec
+Testcase: testConstraintNomBlankPrenomBlanck took 0,028 sec

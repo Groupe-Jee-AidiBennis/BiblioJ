@@ -1,0 +1,16 @@
+Testsuite: biblioj.TypeDocumentTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0,093 sec
+------------- Standard Output ---------------
+--Output from testConstraintIntituleBlank--
+--Output from testConstraintIntituleNull--
+--Output from testConstraintsValidees--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testConstraintIntituleBlank--
+--Output from testConstraintIntituleNull--
+--Output from testConstraintsValidees--
+------------- ---------------- ---------------
+
+Testcase: testConstraintIntituleBlank took 0,066 sec
+Testcase: testConstraintIntituleNull took 0,01 sec
+Testcase: testConstraintsValidees took 0,012 sec

@@ -23,5 +23,8 @@ class ReservationTests {
 		assertTrue reservation.validate()
 	}
 	
-
+	void testToString() {
+		def reservation = new Reservation(code : "NULL", dateReservation : new Date())
+		assertEquals("NULL", reservation.toString())
+	}
 }

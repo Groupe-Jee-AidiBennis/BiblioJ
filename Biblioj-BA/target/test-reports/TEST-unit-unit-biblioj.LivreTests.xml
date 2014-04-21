@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.LivreTests" tests="7" time="0.359" timestamp="2014-04-21T01:52:05">
+  <properties />
+  <testcase classname="biblioj.LivreTests" name="testConstraintTitreNull" time="0.101" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull" time="0.013" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesDisponiblesMinValue" time="0.014" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintsValidees" time="0.014" />
+  <testcase classname="biblioj.LivreTests" name="testToString" time="0.014" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintTypeDocumentNull" time="0.013" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesMinValue" time="0.014" />
+  <system-out><![CDATA[--Output from testConstraintTitreNull--
+--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
+--Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
+]]></system-out>
+  <system-err><![CDATA[--Output from testConstraintTitreNull--
+--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
+--Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
+]]></system-err>
+</testsuite>

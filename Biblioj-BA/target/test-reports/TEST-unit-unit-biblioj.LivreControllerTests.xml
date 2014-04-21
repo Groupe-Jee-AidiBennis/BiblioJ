@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="XERS-PC" name="biblioj.LivreControllerTests" tests="8" time="1.634" timestamp="2014-04-21T01:52:04">
+  <properties />
+  <testcase classname="biblioj.LivreControllerTests" name="testEdit" time="0.518">
+    <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@5f2c1393 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert livre.save() != null
+       |     |      |
+       |     null   false
+       biblioj.Livre@5f2c1393 (toString() == null)
+
+	at biblioj.LivreControllerTests.testEdit(LivreControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="biblioj.LivreControllerTests" name="testSave" time="0.496">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/livre/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6e5fb6c&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/livre/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6e5fb6c
+
+	at biblioj.LivreControllerTests.testSave(LivreControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="biblioj.LivreControllerTests" name="testCreate" time="0.067" />
+  <testcase classname="biblioj.LivreControllerTests" name="testShow" time="0.104">
+    <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@df38ad2 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert livre.save() != null
+       |     |      |
+       |     null   false
+       biblioj.Livre@df38ad2 (toString() == null)
+
+	at biblioj.LivreControllerTests.testShow(LivreControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="biblioj.LivreControllerTests" name="testList" time="0.073" />
+  <testcase classname="biblioj.LivreControllerTests" name="testIndex" time="0.076" />
+  <testcase classname="biblioj.LivreControllerTests" name="testUpdate" time="0.102">
+    <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@4d426dd8 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert livre.save() != null
+       |     |      |
+       |     null   false
+       biblioj.Livre@4d426dd8 (toString() == null)
+
+	at biblioj.LivreControllerTests.testUpdate(LivreControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="biblioj.LivreControllerTests" name="testDelete" time="0.083">
+    <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@337b27d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert livre.save() != null
+       |     |      |
+       |     null   false
+       biblioj.Livre@337b27d (toString() == null)
+
+	at biblioj.LivreControllerTests.testDelete(LivreControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

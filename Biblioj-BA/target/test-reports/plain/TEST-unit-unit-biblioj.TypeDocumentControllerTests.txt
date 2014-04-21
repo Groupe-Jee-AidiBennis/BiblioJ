@@ -1,0 +1,116 @@
+Testsuite: biblioj.TypeDocumentControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 0,928 sec
+------------- Standard Output ---------------
+--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testEdit took 0,378 sec
+	FAILED
+Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@1abd5143 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@1abd5143 (toString() == null)
+
+	at biblioj.TypeDocumentControllerTests.testEdit(TypeDocumentControllerTests.groovy:80)
+
+Testcase: testSave took 0,074 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/typeDocument/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ef5f664
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/typeDocument/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ef5f664
+
+	at biblioj.TypeDocumentControllerTests.testSave(TypeDocumentControllerTests.groovy:48)
+
+Testcase: testCreate took 0,059 sec
+Testcase: testShow took 0,062 sec
+	FAILED
+Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@34a8729b (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@34a8729b (toString() == null)
+
+	at biblioj.TypeDocumentControllerTests.testShow(TypeDocumentControllerTests.groovy:62)
+
+Testcase: testList took 0,057 sec
+Testcase: testIndex took 0,054 sec
+Testcase: testUpdate took 0,063 sec
+	FAILED
+Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@125a0660 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@125a0660 (toString() == null)
+
+	at biblioj.TypeDocumentControllerTests.testUpdate(TypeDocumentControllerTests.groovy:100)
+
+Testcase: testDelete took 0,064 sec
+	FAILED
+Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@5df2a26d (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert typeDocument.save() != null
+       |            |      |
+       |            null   false
+       biblioj.TypeDocument@5df2a26d (toString() == null)
+
+	at biblioj.TypeDocumentControllerTests.testDelete(TypeDocumentControllerTests.groovy:144)
+

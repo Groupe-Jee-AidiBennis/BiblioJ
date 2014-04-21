@@ -13,6 +13,9 @@ class LivreControllerTests {
         assert params != null
         // TODO: Populate valid properties like...
         //params["name"] = 'someValidName'
+		params["titre"]='titre'
+		params["nombreExemplaires"]=10
+		params["nombreExemplaires"]=5
     }
 
     void testIndex() {
@@ -86,50 +89,52 @@ class LivreControllerTests {
         assert model.livreInstance == livre
     }
 
-    void testUpdate() {
-        controller.update()
+	void testUpdate() {
+		controller.update()
 
-        assert flash.message != null
-        assert response.redirectedUrl == '/livre/list'
+		assert flash.message != null
+		assert response.redirectedUrl == '/livre/list'
 
-        response.reset()
+		response.reset()
 
-        populateValidParams(params)
-        def livre = new Livre(params)
+		populateValidParams(params)
+		def livre = new Livre(params)
 
-        assert livre.save() != null
+		assert livre.save() != null
 
-        // test invalid parameters in update
-        params.id = livre.id
-        //TODO: add invalid values to params object
+		// test invalid parameters in update
+		params.id = livre.id
+		//TODO: add invalid values to params object
+		params.nombreExemplaires = -10
+		
 
-        controller.update()
+		controller.update()
 
-        assert view == "/livre/edit"
-        assert model.livreInstance != null
+		assert view == "/livre/edit"
+		assert model.livreInstance != null
 
-        livre.clearErrors()
+		livre.clearErrors()
 
-        populateValidParams(params)
-        controller.update()
+		populateValidParams(params)
+		controller.update()
 
-        assert response.redirectedUrl == "/livre/show/$livre.id"
-        assert flash.message != null
+		assert response.redirectedUrl == "/livre/show/$livre.id"
+		assert flash.message != null
 
-        //test outdated version number
-        response.reset()
-        livre.clearErrors()
+		//test outdated version number
+		response.reset()
+		livre.clearErrors()
 
-        populateValidParams(params)
-        params.id = livre.id
-        params.version = -1
-        controller.update()
+		populateValidParams(params)
+		params.id = livre.id
+		params.version = -1
+		controller.update()
 
-        assert view == "/livre/edit"
-        assert model.livreInstance != null
-        assert model.livreInstance.errors.getFieldError('version')
-        assert flash.message != null
-    }
+		assert view == "/livre/edit"
+		assert model.livreInstance != null
+		assert model.livreInstance.errors.getFieldError('version')
+		assert flash.message != null
+	}
 
     void testDelete() {
         controller.delete()

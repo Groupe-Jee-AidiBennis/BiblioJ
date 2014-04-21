@@ -1,0 +1,46 @@
+Testsuite: biblioj.AuteurControllerTests
+Tests run: 8, Failures: 1, Errors: 0, Time elapsed: 6,012 sec
+------------- Standard Output ---------------
+--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testEdit--
+--Output from testSave--
+--Output from testCreate--
+--Output from testShow--
+--Output from testList--
+--Output from testIndex--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testEdit took 4,347 sec
+Testcase: testSave took 0,888 sec
+Testcase: testCreate took 0,097 sec
+Testcase: testShow took 0,084 sec
+Testcase: testList took 0,09 sec
+Testcase: testIndex took 0,077 sec
+Testcase: testUpdate took 0,202 sec
+	FAILED
+Assertion failed: 
+
+assert view == "/auteur/edit"
+       |    |
+       null false
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert view == "/auteur/edit"
+       |    |
+       null false
+
+	at biblioj.AuteurControllerTests.testUpdate(AuteurControllerTests.groovy:111)
+
+Testcase: testDelete took 0,103 sec

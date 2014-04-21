@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.ReservationTests" tests="2" time="0.252" timestamp="2014-04-21T01:52:07">
+  <properties />
+  <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.071" />
+  <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.022" />
+  <system-out><![CDATA[--Output from testConstraintCodeNull--
+--Output from testConstraintsValidees--
+]]></system-out>
+  <system-err><![CDATA[--Output from testConstraintCodeNull--
+--Output from testConstraintsValidees--
+]]></system-err>
+</testsuite>

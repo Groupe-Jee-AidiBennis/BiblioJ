@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.AuteurTests" tests="8" time="0.385" timestamp="2014-04-21T01:52:03">
+  <properties />
+  <testcase classname="biblioj.AuteurTests" name="testConstraintNomNull" time="0.098" />
+  <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomNull" time="0.023" />
+  <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlank" time="0.017" />
+  <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomBlank" time="0.02" />
+  <testcase classname="biblioj.AuteurTests" name="testConstraintsValidees" time="0.018" />
+  <testcase classname="biblioj.AuteurTests" name="testToString" time="0.028" />
+  <testcase classname="biblioj.AuteurTests" name="testConstraintNomNullPrenomNull" time="0.023" />
+  <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlankPrenomBlanck" time="0.028" />
+  <system-out><![CDATA[--Output from testConstraintNomNull--
+--Output from testConstraintPrenomNull--
+--Output from testConstraintNomBlank--
+--Output from testConstraintPrenomBlank--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+]]></system-out>
+  <system-err><![CDATA[--Output from testConstraintNomNull--
+--Output from testConstraintPrenomNull--
+--Output from testConstraintNomBlank--
+--Output from testConstraintPrenomBlank--
+--Output from testConstraintsValidees--
+--Output from testToString--
+--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+]]></system-err>
+</testsuite>
