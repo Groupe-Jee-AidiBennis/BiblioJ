@@ -1,13 +1,16 @@
 Testsuite: biblioj.ReservationTests
-Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0,252 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0,304 sec
 ------------- Standard Output ---------------
---Output from testConstraintCodeNull--
+--Output from testToString--
 --Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testConstraintCodeNull--
+--Output from testToString--
 --Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ------------- ---------------- ---------------
 
-Testcase: testConstraintCodeNull took 0,071 sec
-Testcase: testConstraintsValidees took 0,022 sec
+Testcase: testToString took 0,083 sec
+Testcase: testConstraintsValidees took 0,017 sec
+Testcase: testConstraintCodeNull took 0,013 sec

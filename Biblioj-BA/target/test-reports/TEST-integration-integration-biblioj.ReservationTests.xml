@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="0" hostname="XERS-PC" name="biblioj.ReservationTests" tests="2" time="0.168" timestamp="2014-04-21T03:13:41">
+  <properties />
+  <testcase classname="biblioj.ReservationTests" name="testSomething" time="0.105">
+    <error message="No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]&#xa;Possible solutions: ajouterLivre(int)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]
+Possible solutions: ajouterLivre(int)
+	at biblioj.ReservationTests.testSomething(ReservationTests.groovy:26)
+</error>
+  </testcase>
+  <testcase classname="biblioj.ReservationTests" name="testSupprimer" time="0.06">
+    <error message="No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]&#xa;Possible solutions: ajouterLivre(int)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]
+Possible solutions: ajouterLivre(int)
+	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:35)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+--Output from testSupprimer--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+--Output from testSupprimer--
+]]></system-err>
+</testsuite>

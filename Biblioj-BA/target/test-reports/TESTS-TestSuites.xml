@@ -1,99 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="XERS-PC" id="0" name="AuteurControllerTests" package="biblioj" tests="8" time="6.012" timestamp="2014-04-21T01:51:57">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="0" name="InitialisationServiceTests" package="biblioj" tests="1" time="0.2" timestamp="2014-04-21T03:13:41">
       <properties />
 
-      <testcase classname="biblioj.AuteurControllerTests" name="testEdit" time="4.346" />
+      <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.198" />
 
-      <testcase classname="biblioj.AuteurControllerTests" name="testSave" time="0.888" />
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
 
-      <testcase classname="biblioj.AuteurControllerTests" name="testCreate" time="0.097" />
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
 
-      <testcase classname="biblioj.AuteurControllerTests" name="testShow" time="0.084" />
+  </testsuite>
+  <testsuite errors="2" failures="0" hostname="XERS-PC" id="1" name="ReservationTests" package="biblioj" tests="2" time="0.168" timestamp="2014-04-21T03:13:41">
+      <properties />
 
-      <testcase classname="biblioj.AuteurControllerTests" name="testList" time="0.09" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testIndex" time="0.077" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testUpdate" time="0.202">
-          <failure message="Assertion failed: &#xa;&#xa;assert view == &quot;/auteur/edit&quot;&#xa;       |    |&#xa;       null false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert view == &quot;/auteur/edit&quot;
-       |    |
-       null false
-
-	at biblioj.AuteurControllerTests.testUpdate(AuteurControllerTests.groovy:111)
-</failure>
+      <testcase classname="biblioj.ReservationTests" name="testSomething" time="0.105">
+          <error message="No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]&#xa;Possible solutions: ajouterLivre(int)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]
+Possible solutions: ajouterLivre(int)
+	at biblioj.ReservationTests.testSomething(ReservationTests.groovy:26)
+</error>
 
       </testcase>
 
-      <testcase classname="biblioj.AuteurControllerTests" name="testDelete" time="0.103" />
+      <testcase classname="biblioj.ReservationTests" name="testSupprimer" time="0.06">
+          <error message="No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]&#xa;Possible solutions: ajouterLivre(int)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]
+Possible solutions: ajouterLivre(int)
+	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:35)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+--Output from testSupprimer--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+--Output from testSupprimer--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="2" name="AuteurControllerTests" package="biblioj" tests="8" time="1.781" timestamp="2014-04-21T03:13:30">
+      <properties />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testEdit" time="0.859" />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testUpdate" time="0.13" />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testSave" time="0.224" />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testDelete" time="0.089" />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testCreate" time="0.079" />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testShow" time="0.108" />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testList" time="0.127" />
+
+      <testcase classname="biblioj.AuteurControllerTests" name="testIndex" time="0.064" />
 
       <system-out><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="XERS-PC" id="1" name="AuteurTests" package="biblioj" tests="8" time="0.385" timestamp="2014-04-21T01:52:03">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="3" name="AuteurTests" package="biblioj" tests="8" time="0.265" timestamp="2014-04-21T03:13:31">
       <properties />
 
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNull" time="0.098" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNullPrenomNull" time="0.075" />
 
-      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomNull" time="0.023" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlankPrenomBlanck" time="0.013" />
 
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlank" time="0.017" />
+      <testcase classname="biblioj.AuteurTests" name="testToString" time="0.013" />
 
-      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomBlank" time="0.02" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomNull" time="0.012" />
 
-      <testcase classname="biblioj.AuteurTests" name="testConstraintsValidees" time="0.018" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNull" time="0.011" />
 
-      <testcase classname="biblioj.AuteurTests" name="testToString" time="0.028" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlank" time="0.012" />
 
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNullPrenomNull" time="0.023" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomBlank" time="0.012" />
 
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlankPrenomBlanck" time="0.028" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintsValidees" time="0.022" />
 
-      <system-out><![CDATA[--Output from testConstraintNomNull--
+      <system-out><![CDATA[--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+--Output from testToString--
 --Output from testConstraintPrenomNull--
+--Output from testConstraintNomNull--
 --Output from testConstraintNomBlank--
 --Output from testConstraintPrenomBlank--
 --Output from testConstraintsValidees--
---Output from testToString--
---Output from testConstraintNomNullPrenomNull--
---Output from testConstraintNomBlankPrenomBlanck--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testConstraintNomNull--
+      <system-err><![CDATA[--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+--Output from testToString--
 --Output from testConstraintPrenomNull--
+--Output from testConstraintNomNull--
 --Output from testConstraintNomBlank--
 --Output from testConstraintPrenomBlank--
 --Output from testConstraintsValidees--
---Output from testToString--
---Output from testConstraintNomNullPrenomNull--
---Output from testConstraintNomBlankPrenomBlanck--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="XERS-PC" id="2" name="InitialisationServiceTests" package="biblioj" tests="1" time="0.243" timestamp="2014-04-21T01:52:03">
+  <testsuite errors="0" failures="1" hostname="XERS-PC" id="4" name="InitialisationServiceTests" package="biblioj" tests="1" time="0.19" timestamp="2014-04-21T03:13:32">
       <properties />
 
-      <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.063">
+      <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.029">
           <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
 	at biblioj.InitialisationServiceTests.testSomething(InitialisationServiceTests.groovy:15)
 </failure>
@@ -107,360 +137,203 @@ assert view == &quot;/auteur/edit&quot;
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="5" hostname="XERS-PC" id="3" name="LivreControllerTests" package="biblioj" tests="8" time="1.634" timestamp="2014-04-21T01:52:04">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="5" name="LivreControllerTests" package="biblioj" tests="8" time="0.96" timestamp="2014-04-21T03:13:32">
       <properties />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testEdit" time="0.518">
-          <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@5f2c1393 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+      <testcase classname="biblioj.LivreControllerTests" name="testEdit" time="0.362" />
 
-assert livre.save() != null
-       |     |      |
-       |     null   false
-       biblioj.Livre@5f2c1393 (toString() == null)
+      <testcase classname="biblioj.LivreControllerTests" name="testUpdate" time="0.076" />
 
-	at biblioj.LivreControllerTests.testEdit(LivreControllerTests.groovy:80)
-</failure>
+      <testcase classname="biblioj.LivreControllerTests" name="testSave" time="0.058" />
 
-      </testcase>
+      <testcase classname="biblioj.LivreControllerTests" name="testDelete" time="0.062" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testSave" time="0.496">
-          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/livre/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6e5fb6c&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+      <testcase classname="biblioj.LivreControllerTests" name="testCreate" time="0.053" />
 
-assert response.redirectedUrl == &apos;/livre/show/1&apos;
-       |        |             |
-       |        null          false
-       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6e5fb6c
+      <testcase classname="biblioj.LivreControllerTests" name="testShow" time="0.062" />
 
-	at biblioj.LivreControllerTests.testSave(LivreControllerTests.groovy:48)
-</failure>
+      <testcase classname="biblioj.LivreControllerTests" name="testList" time="0.122" />
 
-      </testcase>
-
-      <testcase classname="biblioj.LivreControllerTests" name="testCreate" time="0.067" />
-
-      <testcase classname="biblioj.LivreControllerTests" name="testShow" time="0.104">
-          <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@df38ad2 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert livre.save() != null
-       |     |      |
-       |     null   false
-       biblioj.Livre@df38ad2 (toString() == null)
-
-	at biblioj.LivreControllerTests.testShow(LivreControllerTests.groovy:62)
-</failure>
-
-      </testcase>
-
-      <testcase classname="biblioj.LivreControllerTests" name="testList" time="0.073" />
-
-      <testcase classname="biblioj.LivreControllerTests" name="testIndex" time="0.076" />
-
-      <testcase classname="biblioj.LivreControllerTests" name="testUpdate" time="0.102">
-          <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@4d426dd8 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert livre.save() != null
-       |     |      |
-       |     null   false
-       biblioj.Livre@4d426dd8 (toString() == null)
-
-	at biblioj.LivreControllerTests.testUpdate(LivreControllerTests.groovy:100)
-</failure>
-
-      </testcase>
-
-      <testcase classname="biblioj.LivreControllerTests" name="testDelete" time="0.083">
-          <failure message="Assertion failed: &#xa;&#xa;assert livre.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       biblioj.Livre@337b27d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert livre.save() != null
-       |     |      |
-       |     null   false
-       biblioj.Livre@337b27d (toString() == null)
-
-	at biblioj.LivreControllerTests.testDelete(LivreControllerTests.groovy:144)
-</failure>
-
-      </testcase>
+      <testcase classname="biblioj.LivreControllerTests" name="testIndex" time="0.064" />
 
       <system-out><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="XERS-PC" id="4" name="LivreTests" package="biblioj" tests="7" time="0.359" timestamp="2014-04-21T01:52:05">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="6" name="LivreTests" package="biblioj" tests="7" time="0.297" timestamp="2014-04-21T03:13:33">
       <properties />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNull" time="0.101" />
+      <testcase classname="biblioj.LivreTests" name="testConstraintTypeDocumentNull" time="0.091" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull" time="0.013" />
+      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesMinValue" time="0.013" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesDisponiblesMinValue" time="0.014" />
+      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull" time="0.01" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintsValidees" time="0.014" />
+      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesDisponiblesMinValue" time="0.011" />
 
-      <testcase classname="biblioj.LivreTests" name="testToString" time="0.014" />
+      <testcase classname="biblioj.LivreTests" name="testToString" time="0.012" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintTypeDocumentNull" time="0.013" />
+      <testcase classname="biblioj.LivreTests" name="testConstraintsValidees" time="0.011" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesMinValue" time="0.014" />
+      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNull" time="0.012" />
 
-      <system-out><![CDATA[--Output from testConstraintTitreNull--
+      <system-out><![CDATA[--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
 --Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
 --Output from testConstraintNombreExemplairesDisponiblesMinValue--
---Output from testConstraintsValidees--
 --Output from testToString--
---Output from testConstraintTypeDocumentNull--
---Output from testConstraintNombreExemplairesMinValue--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testConstraintTitreNull--
+      <system-err><![CDATA[--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
 --Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
 --Output from testConstraintNombreExemplairesDisponiblesMinValue--
---Output from testConstraintsValidees--
 --Output from testToString--
---Output from testConstraintTypeDocumentNull--
---Output from testConstraintNombreExemplairesMinValue--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="5" hostname="XERS-PC" id="5" name="ReservationControllerTests" package="biblioj" tests="8" time="1.049" timestamp="2014-04-21T01:52:06">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="7" name="ReservationControllerTests" package="biblioj" tests="8" time="1.015" timestamp="2014-04-21T03:13:33">
       <properties />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testEdit" time="0.382">
-          <failure message="Assertion failed: &#xa;&#xa;assert reservation.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       biblioj.Reservation@421a09a1 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+      <testcase classname="biblioj.ReservationControllerTests" name="testEdit" time="0.362" />
 
-assert reservation.save() != null
-       |           |      |
-       |           null   false
-       biblioj.Reservation@421a09a1 (toString() == null)
+      <testcase classname="biblioj.ReservationControllerTests" name="testUpdate" time="0.081" />
 
-	at biblioj.ReservationControllerTests.testEdit(ReservationControllerTests.groovy:80)
-</failure>
+      <testcase classname="biblioj.ReservationControllerTests" name="testSave" time="0.056" />
 
-      </testcase>
+      <testcase classname="biblioj.ReservationControllerTests" name="testDelete" time="0.115" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testSave" time="0.096">
-          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/reservation/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72c2ea35&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+      <testcase classname="biblioj.ReservationControllerTests" name="testCreate" time="0.053" />
 
-assert response.redirectedUrl == &apos;/reservation/show/1&apos;
-       |        |             |
-       |        null          false
-       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@72c2ea35
+      <testcase classname="biblioj.ReservationControllerTests" name="testShow" time="0.091" />
 
-	at biblioj.ReservationControllerTests.testSave(ReservationControllerTests.groovy:48)
-</failure>
+      <testcase classname="biblioj.ReservationControllerTests" name="testList" time="0.067" />
 
-      </testcase>
-
-      <testcase classname="biblioj.ReservationControllerTests" name="testCreate" time="0.071" />
-
-      <testcase classname="biblioj.ReservationControllerTests" name="testShow" time="0.077">
-          <failure message="Assertion failed: &#xa;&#xa;assert reservation.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       biblioj.Reservation@46fff62d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert reservation.save() != null
-       |           |      |
-       |           null   false
-       biblioj.Reservation@46fff62d (toString() == null)
-
-	at biblioj.ReservationControllerTests.testShow(ReservationControllerTests.groovy:62)
-</failure>
-
-      </testcase>
-
-      <testcase classname="biblioj.ReservationControllerTests" name="testList" time="0.061" />
-
-      <testcase classname="biblioj.ReservationControllerTests" name="testIndex" time="0.063" />
-
-      <testcase classname="biblioj.ReservationControllerTests" name="testUpdate" time="0.07">
-          <failure message="Assertion failed: &#xa;&#xa;assert reservation.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       biblioj.Reservation@55477b87 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert reservation.save() != null
-       |           |      |
-       |           null   false
-       biblioj.Reservation@55477b87 (toString() == null)
-
-	at biblioj.ReservationControllerTests.testUpdate(ReservationControllerTests.groovy:100)
-</failure>
-
-      </testcase>
-
-      <testcase classname="biblioj.ReservationControllerTests" name="testDelete" time="0.111">
-          <failure message="Assertion failed: &#xa;&#xa;assert reservation.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       biblioj.Reservation@4e0848c4 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert reservation.save() != null
-       |           |      |
-       |           null   false
-       biblioj.Reservation@4e0848c4 (toString() == null)
-
-	at biblioj.ReservationControllerTests.testDelete(ReservationControllerTests.groovy:144)
-</failure>
-
-      </testcase>
+      <testcase classname="biblioj.ReservationControllerTests" name="testIndex" time="0.071" />
 
       <system-out><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="XERS-PC" id="6" name="ReservationTests" package="biblioj" tests="2" time="0.252" timestamp="2014-04-21T01:52:07">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="8" name="ReservationTests" package="biblioj" tests="3" time="0.304" timestamp="2014-04-21T03:13:34">
       <properties />
 
-      <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.071" />
+      <testcase classname="biblioj.ReservationTests" name="testToString" time="0.083" />
 
-      <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.022" />
+      <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.017" />
 
-      <system-out><![CDATA[--Output from testConstraintCodeNull--
+      <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.013" />
+
+      <system-out><![CDATA[--Output from testToString--
 --Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testConstraintCodeNull--
+      <system-err><![CDATA[--Output from testToString--
 --Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="5" hostname="XERS-PC" id="7" name="TypeDocumentControllerTests" package="biblioj" tests="8" time="0.928" timestamp="2014-04-21T01:52:07">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="9" name="TypeDocumentControllerTests" package="biblioj" tests="8" time="0.814" timestamp="2014-04-21T03:13:35">
       <properties />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testEdit" time="0.378">
-          <failure message="Assertion failed: &#xa;&#xa;assert typeDocument.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       biblioj.TypeDocument@1abd5143 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testEdit" time="0.287" />
 
-assert typeDocument.save() != null
-       |            |      |
-       |            null   false
-       biblioj.TypeDocument@1abd5143 (toString() == null)
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testUpdate" time="0.073" />
 
-	at biblioj.TypeDocumentControllerTests.testEdit(TypeDocumentControllerTests.groovy:80)
-</failure>
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testSave" time="0.062" />
 
-      </testcase>
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testDelete" time="0.058" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testSave" time="0.075">
-          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/typeDocument/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ef5f664&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testCreate" time="0.046" />
 
-assert response.redirectedUrl == &apos;/typeDocument/show/1&apos;
-       |        |             |
-       |        null          false
-       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ef5f664
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testShow" time="0.051" />
 
-	at biblioj.TypeDocumentControllerTests.testSave(TypeDocumentControllerTests.groovy:48)
-</failure>
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testList" time="0.047" />
 
-      </testcase>
-
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testCreate" time="0.059" />
-
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testShow" time="0.062">
-          <failure message="Assertion failed: &#xa;&#xa;assert typeDocument.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       biblioj.TypeDocument@34a8729b (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert typeDocument.save() != null
-       |            |      |
-       |            null   false
-       biblioj.TypeDocument@34a8729b (toString() == null)
-
-	at biblioj.TypeDocumentControllerTests.testShow(TypeDocumentControllerTests.groovy:62)
-</failure>
-
-      </testcase>
-
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testList" time="0.057" />
-
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testIndex" time="0.054" />
-
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testUpdate" time="0.063">
-          <failure message="Assertion failed: &#xa;&#xa;assert typeDocument.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       biblioj.TypeDocument@125a0660 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert typeDocument.save() != null
-       |            |      |
-       |            null   false
-       biblioj.TypeDocument@125a0660 (toString() == null)
-
-	at biblioj.TypeDocumentControllerTests.testUpdate(TypeDocumentControllerTests.groovy:100)
-</failure>
-
-      </testcase>
-
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testDelete" time="0.064">
-          <failure message="Assertion failed: &#xa;&#xa;assert typeDocument.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       biblioj.TypeDocument@5df2a26d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert typeDocument.save() != null
-       |            |      |
-       |            null   false
-       biblioj.TypeDocument@5df2a26d (toString() == null)
-
-	at biblioj.TypeDocumentControllerTests.testDelete(TypeDocumentControllerTests.groovy:144)
-</failure>
-
-      </testcase>
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testIndex" time="0.047" />
 
       <system-out><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testEdit--
+--Output from testUpdate--
 --Output from testSave--
+--Output from testDelete--
 --Output from testCreate--
 --Output from testShow--
 --Output from testList--
 --Output from testIndex--
---Output from testUpdate--
---Output from testDelete--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="XERS-PC" id="8" name="TypeDocumentTests" package="biblioj" tests="3" time="0.093" timestamp="2014-04-21T01:52:08">
+  <testsuite errors="0" failures="0" hostname="XERS-PC" id="10" name="TypeDocumentTests" package="biblioj" tests="4" time="0.111" timestamp="2014-04-21T03:13:35">
       <properties />
 
-      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleBlank" time="0.066" />
+      <testcase classname="biblioj.TypeDocumentTests" name="testToString" time="0.079" />
 
-      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleNull" time="0.01" />
+      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintsValidees" time="0.011" />
 
-      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintsValidees" time="0.012" />
+      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleBlank" time="0.009" />
 
-      <system-out><![CDATA[--Output from testConstraintIntituleBlank--
---Output from testConstraintIntituleNull--
+      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleNull" time="0.008" />
+
+      <system-out><![CDATA[--Output from testToString--
 --Output from testConstraintsValidees--
+--Output from testConstraintIntituleBlank--
+--Output from testConstraintIntituleNull--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testConstraintIntituleBlank--
---Output from testConstraintIntituleNull--
+      <system-err><![CDATA[--Output from testToString--
 --Output from testConstraintsValidees--
+--Output from testConstraintIntituleBlank--
+--Output from testConstraintIntituleNull--
 ]]></system-err>
 
   </testsuite>

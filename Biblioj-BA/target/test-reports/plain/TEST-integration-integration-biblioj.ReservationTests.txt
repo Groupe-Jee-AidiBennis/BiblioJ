@@ -1,0 +1,27 @@
+Testsuite: biblioj.ReservationTests
+Tests run: 2, Failures: 0, Errors: 2, Time elapsed: 0,168 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+--Output from testSupprimer--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+--Output from testSupprimer--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0,102 sec
+	Caused an ERROR
+No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]
+Possible solutions: ajouterLivre(int)
+groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]
+Possible solutions: ajouterLivre(int)
+	at biblioj.ReservationTests.testSomething(ReservationTests.groovy:26)
+
+Testcase: testSupprimer took 0,051 sec
+	Caused an ERROR
+No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]
+Possible solutions: ajouterLivre(int)
+groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]
+Possible solutions: ajouterLivre(int)
+	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:35)
+

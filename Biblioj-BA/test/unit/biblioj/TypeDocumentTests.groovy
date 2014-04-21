@@ -25,4 +25,8 @@ class TypeDocumentTests {
 		def typeDocument = new TypeDocument(intitule : "News ")
 		assertTrue typeDocument.validate()
 	}
+	void testToString() {
+		def typeDocument = new TypeDocument(intitule : "Nouveaute")
+		assertEquals("Nouveaute", typeDocument.toString())
+	}
 }

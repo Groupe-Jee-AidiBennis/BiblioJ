@@ -153,4 +153,6 @@ class ReservationControllerTests {
         assert Reservation.get(reservation.id) == null
         assert response.redirectedUrl == '/reservation/list'
     }
+	
+	
 }

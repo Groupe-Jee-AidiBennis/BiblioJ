@@ -50,4 +50,5 @@ class AuteurTests {
 		def auteur = new Auteur(nom : "Anas", prenom : "Bennis")
 		assertEquals("Bennis Anas", auteur.toString())
 	}
+	
 }

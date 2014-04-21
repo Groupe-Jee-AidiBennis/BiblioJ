@@ -1,28 +1,28 @@
 Testsuite: biblioj.LivreTests
-Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0,359 sec
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0,297 sec
 ------------- Standard Output ---------------
---Output from testConstraintTitreNull--
---Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testConstraintNombreExemplairesDisponiblesMinValue--
---Output from testConstraintsValidees--
---Output from testToString--
 --Output from testConstraintTypeDocumentNull--
 --Output from testConstraintNombreExemplairesMinValue--
+--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
+--Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testConstraintTitreNull--
---Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testConstraintNombreExemplairesDisponiblesMinValue--
---Output from testConstraintsValidees--
---Output from testToString--
 --Output from testConstraintTypeDocumentNull--
 --Output from testConstraintNombreExemplairesMinValue--
+--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
+--Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ------------- ---------------- ---------------
 
-Testcase: testConstraintTitreNull took 0,101 sec
-Testcase: testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull took 0,013 sec
-Testcase: testConstraintNombreExemplairesDisponiblesMinValue took 0,014 sec
-Testcase: testConstraintsValidees took 0,014 sec
-Testcase: testToString took 0,014 sec
-Testcase: testConstraintTypeDocumentNull took 0,013 sec
-Testcase: testConstraintNombreExemplairesMinValue took 0,014 sec
+Testcase: testConstraintTypeDocumentNull took 0,091 sec
+Testcase: testConstraintNombreExemplairesMinValue took 0,013 sec
+Testcase: testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull took 0,01 sec
+Testcase: testConstraintNombreExemplairesDisponiblesMinValue took 0,011 sec
+Testcase: testToString took 0,012 sec
+Testcase: testConstraintsValidees took 0,011 sec
+Testcase: testConstraintTitreNull took 0,012 sec

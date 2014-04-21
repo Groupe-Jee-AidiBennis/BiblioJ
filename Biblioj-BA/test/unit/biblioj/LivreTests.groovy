@@ -45,4 +45,5 @@ class LivreTests {
 		 def livre = new Livre(titre : "LivreAdo", nombreExemplaires : 20, nombreExemplairesDisponibles : 5, type : new TypeDocument(intitule : "Nouveaut�"))
 		 assertEquals("LivreAdo", livre.toString())
 	 }
+	 
 }
