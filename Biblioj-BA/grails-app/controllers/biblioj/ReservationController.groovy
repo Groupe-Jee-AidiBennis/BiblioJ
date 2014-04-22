@@ -140,10 +140,8 @@ class ReservationController {
 		redirect(controller : "livre", action: "list")
 	}
 	def  String genererCode() {
-		String codeGenere = RandomStringUtils.randomAlphanumeric(5)
-		while(Reservation.findByCode(codeGenere) != null) {
-			codeGenere = RandomStringUtils.randomAlphanumeric(5)
-		}
+		String codeGenere = Math.random()
+		
 		return codeGenere
 	}
 	def Boolean test(Reservation reservationEnCours ){
