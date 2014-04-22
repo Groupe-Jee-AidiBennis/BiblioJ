@@ -1,31 +1,31 @@
 Testsuite: biblioj.AuteurControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 6,127 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 5,603 sec
 ------------- Standard Output ---------------
---Output from testIndex--
---Output from testList--
 --Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testIndex--
---Output from testList--
 --Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 4,004 sec
-Testcase: testList took 0,776 sec
-Testcase: testShow took 0,567 sec
-Testcase: testSave took 0,179 sec
-Testcase: testEdit took 0,098 sec
-Testcase: testCreate took 0,104 sec
-Testcase: testUpdate took 0,116 sec
-Testcase: testDelete took 0,131 sec
+Testcase: testShow took 3,841 sec
+Testcase: testDelete took 0,863 sec
+Testcase: testUpdate took 0,221 sec
+Testcase: testCreate took 0,071 sec
+Testcase: testSave took 0,103 sec
+Testcase: testList took 0,13 sec
+Testcase: testEdit took 0,082 sec
+Testcase: testIndex took 0,079 sec

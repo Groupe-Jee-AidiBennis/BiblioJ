@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Anas-PC" name="biblioj.InitialisationServiceTests" tests="1" time="0.749" timestamp="2014-04-22T22:49:48">
+  <properties />
+  <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.747" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

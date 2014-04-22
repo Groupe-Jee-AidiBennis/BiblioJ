@@ -1,94 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Anas-PC" id="0" name="AuteurControllerTests" package="biblioj" tests="8" time="6.127" timestamp="2014-04-22T22:14:02">
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="0" name="InitialisationServiceTests" package="biblioj" tests="1" time="0.749" timestamp="2014-04-22T22:49:48">
       <properties />
 
-      <testcase classname="biblioj.AuteurControllerTests" name="testIndex" time="4.003" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testList" time="0.776" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testShow" time="0.567" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testSave" time="0.179" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testEdit" time="0.098" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testCreate" time="0.104" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testUpdate" time="0.116" />
-
-      <testcase classname="biblioj.AuteurControllerTests" name="testDelete" time="0.13" />
-
-      <system-out><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
---Output from testDelete--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
---Output from testDelete--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="Anas-PC" id="1" name="AuteurTests" package="biblioj" tests="8" time="0.578" timestamp="2014-04-22T22:14:08">
-      <properties />
-
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNull" time="0.184" />
-
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlank" time="0.029" />
-
-      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomBlank" time="0.028" />
-
-      <testcase classname="biblioj.AuteurTests" name="testConstraintsValidees" time="0.034" />
-
-      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomNull" time="0.035" />
-
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlankPrenomBlanck" time="0.034" />
-
-      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNullPrenomNull" time="0.035" />
-
-      <testcase classname="biblioj.AuteurTests" name="testToString" time="0.038" />
-
-      <system-out><![CDATA[--Output from testConstraintNomNull--
---Output from testConstraintNomBlank--
---Output from testConstraintPrenomBlank--
---Output from testConstraintsValidees--
---Output from testConstraintPrenomNull--
---Output from testConstraintNomBlankPrenomBlanck--
---Output from testConstraintNomNullPrenomNull--
---Output from testToString--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testConstraintNomNull--
---Output from testConstraintNomBlank--
---Output from testConstraintPrenomBlank--
---Output from testConstraintsValidees--
---Output from testConstraintPrenomNull--
---Output from testConstraintNomBlankPrenomBlanck--
---Output from testConstraintNomNullPrenomNull--
---Output from testToString--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="1" failures="0" hostname="Anas-PC" id="2" name="InitialisationServiceTests" package="biblioj" tests="1" time="0.367" timestamp="2014-04-22T22:14:08">
-      <properties />
-
-      <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.128">
-          <error message="Cannot invoke method initialiserDonnees() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method initialiserDonnees() on null object
-	at biblioj.InitialisationServiceTests.testSomething(InitialisationServiceTests.groovy:25)
-</error>
-
-      </testcase>
+      <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.747" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -97,130 +12,208 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Anas-PC" id="3" name="LivreControllerTests" package="biblioj" tests="8" time="1.634" timestamp="2014-04-22T22:14:09">
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="1" name="AuteurControllerTests" package="biblioj" tests="8" time="5.603" timestamp="2014-04-22T22:49:11">
       <properties />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testIndex" time="0.537" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testShow" time="3.841" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testList" time="0.112" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testDelete" time="0.863" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testShow" time="0.152" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testUpdate" time="0.221" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testSave" time="0.135" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testCreate" time="0.071" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testEdit" time="0.112" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testSave" time="0.103" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testCreate" time="0.117" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testList" time="0.13" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testUpdate" time="0.119" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testEdit" time="0.082" />
 
-      <testcase classname="biblioj.LivreControllerTests" name="testDelete" time="0.143" />
+      <testcase classname="biblioj.AuteurControllerTests" name="testIndex" time="0.079" />
 
-      <system-out><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
+      <system-out><![CDATA[--Output from testShow--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
+      <system-err><![CDATA[--Output from testShow--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Anas-PC" id="4" name="LivreTests" package="biblioj" tests="7" time="0.363" timestamp="2014-04-22T22:14:10">
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="2" name="AuteurTests" package="biblioj" tests="8" time="0.571" timestamp="2014-04-22T22:49:17">
       <properties />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintsValidees" time="0.127" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNullPrenomNull" time="0.133" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNull" time="0.013" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlankPrenomBlanck" time="0.025" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintTypeDocumentNull" time="0.012" />
+      <testcase classname="biblioj.AuteurTests" name="testToString" time="0.022" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesMinValue" time="0.013" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomNull" time="0.024" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull" time="0.013" />
+      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomNull" time="0.022" />
+
+      <testcase classname="biblioj.AuteurTests" name="testConstraintsValidees" time="0.032" />
+
+      <testcase classname="biblioj.AuteurTests" name="testConstraintPrenomBlank" time="0.026" />
+
+      <testcase classname="biblioj.AuteurTests" name="testConstraintNomBlank" time="0.035" />
+
+      <system-out><![CDATA[--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+--Output from testToString--
+--Output from testConstraintNomNull--
+--Output from testConstraintPrenomNull--
+--Output from testConstraintsValidees--
+--Output from testConstraintPrenomBlank--
+--Output from testConstraintNomBlank--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraintNomNullPrenomNull--
+--Output from testConstraintNomBlankPrenomBlanck--
+--Output from testToString--
+--Output from testConstraintNomNull--
+--Output from testConstraintPrenomNull--
+--Output from testConstraintsValidees--
+--Output from testConstraintPrenomBlank--
+--Output from testConstraintNomBlank--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="3" name="LivreControllerTests" package="biblioj" tests="8" time="1.967" timestamp="2014-04-22T22:49:17">
+      <properties />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testShow" time="0.907" />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testDelete" time="0.148" />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testUpdate" time="0.139" />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testCreate" time="0.127" />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testSave" time="0.122" />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testList" time="0.091" />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testEdit" time="0.133" />
+
+      <testcase classname="biblioj.LivreControllerTests" name="testIndex" time="0.138" />
+
+      <system-out><![CDATA[--Output from testShow--
+--Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testShow--
+--Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="4" name="LivreTests" package="biblioj" tests="7" time="0.441" timestamp="2014-04-22T22:49:19">
+      <properties />
+
+      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull" time="0.132" />
+
+      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesMinValue" time="0.029" />
+
+      <testcase classname="biblioj.LivreTests" name="testConstraintTypeDocumentNull" time="0.019" />
+
+      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesDisponiblesMinValue" time="0.013" />
 
       <testcase classname="biblioj.LivreTests" name="testToString" time="0.015" />
 
-      <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesDisponiblesMinValue" time="0.014" />
+      <testcase classname="biblioj.LivreTests" name="testConstraintsValidees" time="0.013" />
 
-      <system-out><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintTitreNull--
---Output from testConstraintTypeDocumentNull--
+      <testcase classname="biblioj.LivreTests" name="testConstraintTitreNull" time="0.014" />
+
+      <system-out><![CDATA[--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
 --Output from testConstraintNombreExemplairesMinValue--
---Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testToString--
+--Output from testConstraintTypeDocumentNull--
 --Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintTitreNull--
---Output from testConstraintTypeDocumentNull--
+      <system-err><![CDATA[--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
 --Output from testConstraintNombreExemplairesMinValue--
---Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testToString--
+--Output from testConstraintTypeDocumentNull--
 --Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Anas-PC" id="5" name="ReservationControllerTests" package="biblioj" tests="8" time="1.064" timestamp="2014-04-22T22:14:11">
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="5" name="ReservationControllerTests" package="biblioj" tests="8" time="1.267" timestamp="2014-04-22T22:49:20">
       <properties />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testIndex" time="0.331" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testShow" time="0.455" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testList" time="0.079" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testDelete" time="0.12" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testShow" time="0.158" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testUpdate" time="0.217" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testSave" time="0.08" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testCreate" time="0.082" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testEdit" time="0.065" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testSave" time="0.074" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testCreate" time="0.064" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testList" time="0.071" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testUpdate" time="0.096" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testEdit" time="0.068" />
 
-      <testcase classname="biblioj.ReservationControllerTests" name="testDelete" time="0.074" />
+      <testcase classname="biblioj.ReservationControllerTests" name="testIndex" time="0.066" />
 
-      <system-out><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
+      <system-out><![CDATA[--Output from testShow--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
+      <system-err><![CDATA[--Output from testShow--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="1" failures="0" hostname="Anas-PC" id="6" name="ReservationTests" package="biblioj" tests="4" time="0.394" timestamp="2014-04-22T22:14:12">
+  <testsuite errors="1" failures="0" hostname="Anas-PC" id="6" name="ReservationTests" package="biblioj" tests="4" time="0.712" timestamp="2014-04-22T22:49:21">
       <properties />
 
-      <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.079" />
+      <testcase classname="biblioj.ReservationTests" name="testToString" time="0.091" />
 
-      <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.014" />
-
-      <testcase classname="biblioj.ReservationTests" name="testSupprimer" time="0.128">
+      <testcase classname="biblioj.ReservationTests" name="testSupprimer" time="0.406">
           <error message="No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []&#xa;Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
 Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()
 	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:40)
@@ -228,82 +221,84 @@ Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), 
 
       </testcase>
 
-      <testcase classname="biblioj.ReservationTests" name="testToString" time="0.014" />
+      <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.018" />
 
-      <system-out><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintCodeNull--
+      <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.014" />
+
+      <system-out><![CDATA[--Output from testToString--
 --Output from testSupprimer--
---Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintCodeNull--
+      <system-err><![CDATA[--Output from testToString--
 --Output from testSupprimer--
---Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Anas-PC" id="7" name="TypeDocumentControllerTests" package="biblioj" tests="8" time="0.97" timestamp="2014-04-22T22:14:12">
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="7" name="TypeDocumentControllerTests" package="biblioj" tests="8" time="1.061" timestamp="2014-04-22T22:49:22">
       <properties />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testIndex" time="0.359" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testShow" time="0.391" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testList" time="0.1" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testDelete" time="0.071" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testShow" time="0.081" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testUpdate" time="0.08" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testSave" time="0.068" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testCreate" time="0.076" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testEdit" time="0.068" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testSave" time="0.082" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testCreate" time="0.054" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testList" time="0.063" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testUpdate" time="0.065" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testEdit" time="0.073" />
 
-      <testcase classname="biblioj.TypeDocumentControllerTests" name="testDelete" time="0.064" />
+      <testcase classname="biblioj.TypeDocumentControllerTests" name="testIndex" time="0.106" />
 
-      <system-out><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
+      <system-out><![CDATA[--Output from testShow--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testIndex--
---Output from testList--
---Output from testShow--
---Output from testSave--
---Output from testEdit--
---Output from testCreate--
---Output from testUpdate--
+      <system-err><![CDATA[--Output from testShow--
 --Output from testDelete--
+--Output from testUpdate--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testEdit--
+--Output from testIndex--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Anas-PC" id="8" name="TypeDocumentTests" package="biblioj" tests="4" time="0.105" timestamp="2014-04-22T22:14:13">
+  <testsuite errors="0" failures="0" hostname="Anas-PC" id="8" name="TypeDocumentTests" package="biblioj" tests="4" time="0.108" timestamp="2014-04-22T22:49:23">
       <properties />
 
-      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintsValidees" time="0.064" />
+      <testcase classname="biblioj.TypeDocumentTests" name="testToString" time="0.063" />
 
-      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleBlank" time="0.011" />
+      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintsValidees" time="0.016" />
+
+      <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleBlank" time="0.012" />
 
       <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleNull" time="0.011" />
 
-      <testcase classname="biblioj.TypeDocumentTests" name="testToString" time="0.011" />
-
-      <system-out><![CDATA[--Output from testConstraintsValidees--
+      <system-out><![CDATA[--Output from testToString--
+--Output from testConstraintsValidees--
 --Output from testConstraintIntituleBlank--
 --Output from testConstraintIntituleNull--
---Output from testToString--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testConstraintsValidees--
+      <system-err><![CDATA[--Output from testToString--
+--Output from testConstraintsValidees--
 --Output from testConstraintIntituleBlank--
 --Output from testConstraintIntituleNull--
---Output from testToString--
 ]]></system-err>
 
   </testsuite>

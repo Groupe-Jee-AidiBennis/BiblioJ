@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Anas-PC" name="biblioj.LivreTests" tests="7" time="0.363" timestamp="2014-04-22T22:14:10">
+<testsuite errors="0" failures="0" hostname="Anas-PC" name="biblioj.LivreTests" tests="7" time="0.441" timestamp="2014-04-22T22:49:19">
   <properties />
-  <testcase classname="biblioj.LivreTests" name="testConstraintsValidees" time="0.127" />
-  <testcase classname="biblioj.LivreTests" name="testConstraintTitreNull" time="0.013" />
-  <testcase classname="biblioj.LivreTests" name="testConstraintTypeDocumentNull" time="0.012" />
-  <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesMinValue" time="0.013" />
-  <testcase classname="biblioj.LivreTests" name="testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull" time="0.013" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull" time="0.132" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesMinValue" time="0.029" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintTypeDocumentNull" time="0.019" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesDisponiblesMinValue" time="0.013" />
   <testcase classname="biblioj.LivreTests" name="testToString" time="0.015" />
-  <testcase classname="biblioj.LivreTests" name="testConstraintNombreExemplairesDisponiblesMinValue" time="0.014" />
-  <system-out><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintTitreNull--
---Output from testConstraintTypeDocumentNull--
+  <testcase classname="biblioj.LivreTests" name="testConstraintsValidees" time="0.013" />
+  <testcase classname="biblioj.LivreTests" name="testConstraintTitreNull" time="0.014" />
+  <system-out><![CDATA[--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
 --Output from testConstraintNombreExemplairesMinValue--
---Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testToString--
+--Output from testConstraintTypeDocumentNull--
 --Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintTitreNull--
---Output from testConstraintTypeDocumentNull--
+  <system-err><![CDATA[--Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
 --Output from testConstraintNombreExemplairesMinValue--
---Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testToString--
+--Output from testConstraintTypeDocumentNull--
 --Output from testConstraintNombreExemplairesDisponiblesMinValue--
+--Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintTitreNull--
 ]]></system-err>
 </testsuite>

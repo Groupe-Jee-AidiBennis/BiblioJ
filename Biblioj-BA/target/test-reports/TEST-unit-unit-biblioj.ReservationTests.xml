@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="Anas-PC" name="biblioj.ReservationTests" tests="4" time="0.394" timestamp="2014-04-22T22:14:12">
+<testsuite errors="1" failures="0" hostname="Anas-PC" name="biblioj.ReservationTests" tests="4" time="0.712" timestamp="2014-04-22T22:49:21">
   <properties />
-  <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.079" />
-  <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.014" />
-  <testcase classname="biblioj.ReservationTests" name="testSupprimer" time="0.128">
+  <testcase classname="biblioj.ReservationTests" name="testToString" time="0.091" />
+  <testcase classname="biblioj.ReservationTests" name="testSupprimer" time="0.406">
     <error message="No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []&#xa;Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
 Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()
 	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:40)
 </error>
   </testcase>
-  <testcase classname="biblioj.ReservationTests" name="testToString" time="0.014" />
-  <system-out><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintCodeNull--
+  <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.018" />
+  <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.014" />
+  <system-out><![CDATA[--Output from testToString--
 --Output from testSupprimer--
---Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testConstraintsValidees--
---Output from testConstraintCodeNull--
+  <system-err><![CDATA[--Output from testToString--
 --Output from testSupprimer--
---Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
 ]]></system-err>
 </testsuite>
