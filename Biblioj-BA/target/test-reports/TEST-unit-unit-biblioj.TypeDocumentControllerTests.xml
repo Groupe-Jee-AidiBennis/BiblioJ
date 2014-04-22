@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.TypeDocumentControllerTests" tests="8" time="0.822" timestamp="2014-04-22T22:31:56">
+<testsuite errors="0" failures="0" hostname="Anas-PC" name="biblioj.TypeDocumentControllerTests" tests="8" time="0.97" timestamp="2014-04-22T22:14:12">
   <properties />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testList" time="0.268" />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testCreate" time="0.064" />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testSave" time="0.104" />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testUpdate" time="0.064" />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testEdit" time="0.057" />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testShow" time="0.057" />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testIndex" time="0.048" />
-  <testcase classname="biblioj.TypeDocumentControllerTests" name="testDelete" time="0.058" />
-  <system-out><![CDATA[--Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testUpdate--
---Output from testEdit--
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testIndex" time="0.359" />
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testList" time="0.1" />
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testShow" time="0.081" />
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testSave" time="0.068" />
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testEdit" time="0.068" />
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testCreate" time="0.054" />
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testUpdate" time="0.065" />
+  <testcase classname="biblioj.TypeDocumentControllerTests" name="testDelete" time="0.064" />
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
 --Output from testShow--
---Output from testIndex--
+--Output from testSave--
+--Output from testEdit--
+--Output from testCreate--
+--Output from testUpdate--
 --Output from testDelete--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testUpdate--
---Output from testEdit--
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
 --Output from testShow--
---Output from testIndex--
+--Output from testSave--
+--Output from testEdit--
+--Output from testCreate--
+--Output from testUpdate--
 --Output from testDelete--
 ]]></system-err>
 </testsuite>

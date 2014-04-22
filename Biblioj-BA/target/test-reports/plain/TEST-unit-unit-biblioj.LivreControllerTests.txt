@@ -1,31 +1,31 @@
 Testsuite: biblioj.LivreControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0,945 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1,634 sec
 ------------- Standard Output ---------------
---Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testUpdate--
---Output from testEdit--
---Output from testShow--
 --Output from testIndex--
+--Output from testList--
+--Output from testShow--
+--Output from testSave--
+--Output from testEdit--
+--Output from testCreate--
+--Output from testUpdate--
 --Output from testDelete--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testUpdate--
---Output from testEdit--
---Output from testShow--
 --Output from testIndex--
+--Output from testList--
+--Output from testShow--
+--Output from testSave--
+--Output from testEdit--
+--Output from testCreate--
+--Output from testUpdate--
 --Output from testDelete--
 ------------- ---------------- ---------------
 
-Testcase: testList took 0,309 sec
-Testcase: testCreate took 0,086 sec
-Testcase: testSave took 0,126 sec
-Testcase: testUpdate took 0,086 sec
-Testcase: testEdit took 0,059 sec
-Testcase: testShow took 0,057 sec
-Testcase: testIndex took 0,054 sec
-Testcase: testDelete took 0,062 sec
+Testcase: testIndex took 0,537 sec
+Testcase: testList took 0,112 sec
+Testcase: testShow took 0,152 sec
+Testcase: testSave took 0,135 sec
+Testcase: testEdit took 0,112 sec
+Testcase: testCreate took 0,118 sec
+Testcase: testUpdate took 0,119 sec
+Testcase: testDelete took 0,143 sec

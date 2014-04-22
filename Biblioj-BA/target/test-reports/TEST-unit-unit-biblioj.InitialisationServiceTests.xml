@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Anas-PC" name="biblioj.InitialisationServiceTests" tests="1" time="0.367" timestamp="2014-04-22T22:14:08">
+  <properties />
+  <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.128">
+    <error message="Cannot invoke method initialiserDonnees() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method initialiserDonnees() on null object
+	at biblioj.InitialisationServiceTests.testSomething(InitialisationServiceTests.groovy:25)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>
