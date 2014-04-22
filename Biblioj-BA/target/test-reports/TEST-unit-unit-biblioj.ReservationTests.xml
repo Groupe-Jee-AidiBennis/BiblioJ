@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.ReservationTests" tests="3" time="0.304" timestamp="2014-04-21T03:13:34">
+<testsuite errors="1" failures="0" hostname="XERS-PC" name="biblioj.ReservationTests" tests="4" time="0.251" timestamp="2014-04-22T22:31:56">
   <properties />
-  <testcase classname="biblioj.ReservationTests" name="testToString" time="0.083" />
-  <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.017" />
-  <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.013" />
-  <system-out><![CDATA[--Output from testToString--
---Output from testConstraintsValidees--
+  <testcase classname="biblioj.ReservationTests" name="testConstraintsValidees" time="0.067" />
+  <testcase classname="biblioj.ReservationTests" name="testConstraintCodeNull" time="0.011" />
+  <testcase classname="biblioj.ReservationTests" name="testToString" time="0.011" />
+  <testcase classname="biblioj.ReservationTests" name="testSupprimer" time="0.024">
+    <error message="No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []&#xa;Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()
+	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:40)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testConstraintsValidees--
 --Output from testConstraintCodeNull--
+--Output from testToString--
+--Output from testSupprimer--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testToString--
---Output from testConstraintsValidees--
+  <system-err><![CDATA[--Output from testConstraintsValidees--
 --Output from testConstraintCodeNull--
+--Output from testToString--
+--Output from testSupprimer--
 ]]></system-err>
 </testsuite>

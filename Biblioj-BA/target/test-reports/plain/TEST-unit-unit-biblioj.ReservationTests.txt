@@ -1,16 +1,26 @@
 Testsuite: biblioj.ReservationTests
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0,304 sec
+Tests run: 4, Failures: 0, Errors: 1, Time elapsed: 0,251 sec
 ------------- Standard Output ---------------
---Output from testToString--
 --Output from testConstraintsValidees--
 --Output from testConstraintCodeNull--
+--Output from testToString--
+--Output from testSupprimer--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testToString--
 --Output from testConstraintsValidees--
 --Output from testConstraintCodeNull--
+--Output from testToString--
+--Output from testSupprimer--
 ------------- ---------------- ---------------
 
-Testcase: testToString took 0,083 sec
-Testcase: testConstraintsValidees took 0,017 sec
-Testcase: testConstraintCodeNull took 0,013 sec
+Testcase: testConstraintsValidees took 0,067 sec
+Testcase: testConstraintCodeNull took 0,011 sec
+Testcase: testToString took 0,011 sec
+Testcase: testSupprimer took 0,023 sec
+	Caused an ERROR
+No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()
+groovy.lang.MissingMethodException: No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()
+	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:40)
+

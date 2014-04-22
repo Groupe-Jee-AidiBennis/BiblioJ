@@ -1,3 +1,4 @@
---Output from testToString--
 --Output from testConstraintsValidees--
 --Output from testConstraintCodeNull--
+--Output from testToString--
+--Output from testSupprimer--

@@ -1,5 +1,5 @@
 Testsuite: biblioj.InitialisationServiceTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,2 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,476 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,2 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0,198 sec
+Testcase: testSomething took 0,475 sec

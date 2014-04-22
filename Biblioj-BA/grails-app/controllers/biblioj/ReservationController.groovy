@@ -3,6 +3,7 @@ package biblioj
 import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.dao.OptimisticLockingFailureException
 import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang.math.RandomUtils;
 
 class ReservationController {
 
@@ -140,9 +141,9 @@ class ReservationController {
 		redirect(controller : "livre", action: "list")
 	}
 	def  String genererCode() {
-		String codeGenere = RandomStringUtils.randomAlphanumeric(5)
+		String codeGenere = Math.random()
 		while(Reservation.findByCode(codeGenere) != null) {
-			codeGenere = RandomStringUtils.randomAlphanumeric(5)
+			codeGenere = Random.(10)
 		}
 		return codeGenere
 	}

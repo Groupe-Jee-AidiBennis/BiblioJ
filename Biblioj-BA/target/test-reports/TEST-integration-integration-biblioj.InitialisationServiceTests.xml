@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.InitialisationServiceTests" tests="1" time="0.2" timestamp="2014-04-21T03:13:41">
+<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.InitialisationServiceTests" tests="1" time="0.476" timestamp="2014-04-22T22:32:01">
   <properties />
-  <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.198" />
+  <testcase classname="biblioj.InitialisationServiceTests" name="testSomething" time="0.475" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

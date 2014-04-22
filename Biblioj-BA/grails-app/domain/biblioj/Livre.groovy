@@ -15,9 +15,7 @@ class Livre {
 		nombreExemplairesDisponibles(min : 0)
 		type (nullable : true)
 	}
-	static mapping = {
-		reservations joinTable: [name: "mm_reservation_livres", key: 'mm_livre_id' ]
-	}
+	
 		
 	def String toString() {
 		titre

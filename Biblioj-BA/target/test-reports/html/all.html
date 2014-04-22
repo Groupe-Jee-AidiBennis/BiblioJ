@@ -15,14 +15,11 @@
      - All tests </h1>
 <p class="intro">
                         Executed
-                        58
+                        56
                         tests
                     
                         with
-                        2 errors
-
-                        and
-                        one failure
+                        one error
                         .
                     </p>
 </div>
@@ -51,33 +48,42 @@
 <h2>ReservationTests</h2>
 <h3>
                         Executed
-                        2
+                        4
                         tests
                     
                         with
-                        2 errors
+                        one error
                         .
                     </h3>
 </div>
-<div class="testcase clearfix error grid_8 alpha omega" data-name="testSomething">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintsValidees">
 <div class="grid_3 alpha">
 <p>
-<span class="icon error"></span><b class="testname message error">testSomething</b>
+<span class="icon success"></span><b class="testname message success">testConstraintsValidees</b>
 </p>
-<p class="summary">Executed in 0.105 seconds.</p>
+<p class="summary">Executed in 0.067 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintCodeNull">
+<div class="grid_3 alpha">
 <p>
-<b class="message">No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]
-Possible solutions: ajouterLivre(int)</b>
+<span class="icon success"></span><b class="testname message success">testConstraintCodeNull</b>
 </p>
-<pre>groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [12]
-Possible solutions: ajouterLivre(int)
-	at biblioj.ReservationTests.testSomething(ReservationTests.groovy:26)
-</pre>
+<p class="summary">Executed in 0.011 seconds.</p>
 </div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
 </div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testToString</b>
+</p>
+<p class="summary">Executed in 0.011 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
 <div class="testcase clearfix error grid_8 alpha omega" data-name="testSupprimer">
@@ -85,17 +91,17 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon error"></span><b class="testname message error">testSupprimer</b>
 </p>
-<p class="summary">Executed in 0.06 seconds.</p>
+<p class="summary">Executed in 0.024 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
 <p>
-<b class="message">No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]
-Possible solutions: ajouterLivre(int)</b>
+<b class="message">No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()</b>
 </p>
-<pre>groovy.lang.MissingMethodException: No signature of method: biblioj.Reservation.ajouterLivre() is applicable for argument types: (java.lang.Long) values: [13]
-Possible solutions: ajouterLivre(int)
-	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:35)
+<pre>groovy.lang.MissingMethodException: No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()
+	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:40)
 </pre>
 </div>
 </div>
@@ -104,58 +110,18 @@ Possible solutions: ajouterLivre(int)
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testSomething--
+<pre class="stdout">--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
+--Output from testToString--
 --Output from testSupprimer--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testSomething--
+<pre class="syserr">--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
+--Output from testToString--
 --Output from testSupprimer--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testsuite failure">
-<div class="header">
-<h2>InitialisationServiceTests</h2>
-<h3>
-                        A single test executed
-                    
-                        with
-                        one failure
-                        .
-                    </h3>
-</div>
-<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
-<div class="grid_3 alpha">
-<p>
-<span class="icon failure"></span><b class="testname message failure">testSomething</b>
-</p>
-<p class="summary">Executed in 0.029 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
-<p>
-<b class="message">junit.framework.AssertionFailedError: Implement me</b>
-</p>
-<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at biblioj.InitialisationServiceTests.testSomething(InitialisationServiceTests.groovy:15)
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from testSomething--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from testSomething--
 </pre>
 </div>
 </div>
@@ -172,42 +138,12 @@ Possible solutions: ajouterLivre(int)
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testEdit</b>
+<span class="icon success"></span><b class="testname message success">testList</b>
 </p>
-<p class="summary">Executed in 0.859 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testUpdate</b>
-</p>
-<p class="summary">Executed in 0.13 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testSave">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testSave</b>
-</p>
-<p class="summary">Executed in 0.224 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testDelete">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testDelete</b>
-</p>
-<p class="summary">Executed in 0.089 seconds.</p>
+<p class="summary">Executed in 0.26 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -217,7 +153,37 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testCreate</b>
 </p>
-<p class="summary">Executed in 0.079 seconds.</p>
+<p class="summary">Executed in 0.665 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testSave</b>
+</p>
+<p class="summary">Executed in 0.111 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.07 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testEdit</b>
+</p>
+<p class="summary">Executed in 0.061 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -227,17 +193,7 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testShow</b>
 </p>
-<p class="summary">Executed in 0.108 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testList</b>
-</p>
-<p class="summary">Executed in 0.127 seconds.</p>
+<p class="summary">Executed in 0.066 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -247,7 +203,17 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testIndex</b>
 </p>
-<p class="summary">Executed in 0.064 seconds.</p>
+<p class="summary">Executed in 0.067 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testDelete</b>
+</p>
+<p class="summary">Executed in 0.073 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -255,26 +221,26 @@ Possible solutions: ajouterLivre(int)
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="stdout">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
+--Output from testDelete--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="syserr">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
+--Output from testDelete--
 </pre>
 </div>
 </div>
@@ -296,7 +262,7 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintNomNullPrenomNull</b>
 </p>
-<p class="summary">Executed in 0.075 seconds.</p>
+<p class="summary">Executed in 0.067 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -306,17 +272,27 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintNomBlankPrenomBlanck</b>
 </p>
-<p class="summary">Executed in 0.013 seconds.</p>
+<p class="summary">Executed in 0.012 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintsValidees">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testToString</b>
+<span class="icon success"></span><b class="testname message success">testConstraintsValidees</b>
 </p>
-<p class="summary">Executed in 0.013 seconds.</p>
+<p class="summary">Executed in 0.029 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintPrenomBlank">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testConstraintPrenomBlank</b>
+</p>
+<p class="summary">Executed in 0.01 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -346,27 +322,17 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintNomBlank</b>
 </p>
-<p class="summary">Executed in 0.012 seconds.</p>
+<p class="summary">Executed in 0.01 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintPrenomBlank">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testConstraintPrenomBlank</b>
+<span class="icon success"></span><b class="testname message success">testToString</b>
 </p>
-<p class="summary">Executed in 0.012 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintsValidees">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testConstraintsValidees</b>
-</p>
-<p class="summary">Executed in 0.022 seconds.</p>
+<p class="summary">Executed in 0.013 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -376,24 +342,24 @@ Possible solutions: ajouterLivre(int)
 <h2>Standard output</h2>
 <pre class="stdout">--Output from testConstraintNomNullPrenomNull--
 --Output from testConstraintNomBlankPrenomBlanck--
---Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintPrenomBlank--
 --Output from testConstraintPrenomNull--
 --Output from testConstraintNomNull--
 --Output from testConstraintNomBlank--
---Output from testConstraintPrenomBlank--
---Output from testConstraintsValidees--
+--Output from testToString--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
 <pre class="syserr">--Output from testConstraintNomNullPrenomNull--
 --Output from testConstraintNomBlankPrenomBlanck--
---Output from testToString--
+--Output from testConstraintsValidees--
+--Output from testConstraintPrenomBlank--
 --Output from testConstraintPrenomNull--
 --Output from testConstraintNomNull--
 --Output from testConstraintNomBlank--
---Output from testConstraintPrenomBlank--
---Output from testConstraintsValidees--
+--Output from testToString--
 </pre>
 </div>
 </div>
@@ -413,7 +379,7 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testSomething</b>
 </p>
-<p class="summary">Executed in 0.198 seconds.</p>
+<p class="summary">Executed in 0.475 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -443,22 +409,22 @@ Possible solutions: ajouterLivre(int)
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testEdit</b>
+<span class="icon success"></span><b class="testname message success">testList</b>
 </p>
-<p class="summary">Executed in 0.362 seconds.</p>
+<p class="summary">Executed in 0.309 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testUpdate</b>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
 </p>
-<p class="summary">Executed in 0.076 seconds.</p>
+<p class="summary">Executed in 0.086 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -468,7 +434,47 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testSave</b>
 </p>
-<p class="summary">Executed in 0.058 seconds.</p>
+<p class="summary">Executed in 0.126 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.086 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testEdit</b>
+</p>
+<p class="summary">Executed in 0.059 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testShow</b>
+</p>
+<p class="summary">Executed in 0.057 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.054 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -483,69 +489,29 @@ Possible solutions: ajouterLivre(int)
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testCreate</b>
-</p>
-<p class="summary">Executed in 0.053 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testShow">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testShow</b>
-</p>
-<p class="summary">Executed in 0.062 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testList</b>
-</p>
-<p class="summary">Executed in 0.122 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testIndex</b>
-</p>
-<p class="summary">Executed in 0.064 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="stdout">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
+--Output from testDelete--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="syserr">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
+--Output from testDelete--
 </pre>
 </div>
 </div>
@@ -562,22 +528,12 @@ Possible solutions: ajouterLivre(int)
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintTypeDocumentNull">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintNombreExemplairesDisponiblesMinValue">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testConstraintTypeDocumentNull</b>
+<span class="icon success"></span><b class="testname message success">testConstraintNombreExemplairesDisponiblesMinValue</b>
 </p>
-<p class="summary">Executed in 0.091 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintNombreExemplairesMinValue">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testConstraintNombreExemplairesMinValue</b>
-</p>
-<p class="summary">Executed in 0.013 seconds.</p>
+<p class="summary">Executed in 0.095 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -587,25 +543,25 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull</b>
 </p>
-<p class="summary">Executed in 0.01 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintNombreExemplairesDisponiblesMinValue">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testConstraintNombreExemplairesDisponiblesMinValue</b>
-</p>
 <p class="summary">Executed in 0.011 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintTypeDocumentNull">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testToString</b>
+<span class="icon success"></span><b class="testname message success">testConstraintTypeDocumentNull</b>
+</p>
+<p class="summary">Executed in 0.013 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintNombreExemplairesMinValue">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testConstraintNombreExemplairesMinValue</b>
 </p>
 <p class="summary">Executed in 0.012 seconds.</p>
 </div>
@@ -617,7 +573,7 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintsValidees</b>
 </p>
-<p class="summary">Executed in 0.011 seconds.</p>
+<p class="summary">Executed in 0.012 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -632,27 +588,37 @@ Possible solutions: ajouterLivre(int)
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testToString</b>
+</p>
+<p class="summary">Executed in 0.011 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testConstraintTypeDocumentNull--
---Output from testConstraintNombreExemplairesMinValue--
+<pre class="stdout">--Output from testConstraintNombreExemplairesDisponiblesMinValue--
 --Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testConstraintNombreExemplairesDisponiblesMinValue--
---Output from testToString--
+--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
 --Output from testConstraintsValidees--
 --Output from testConstraintTitreNull--
+--Output from testToString--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testConstraintTypeDocumentNull--
---Output from testConstraintNombreExemplairesMinValue--
+<pre class="syserr">--Output from testConstraintNombreExemplairesDisponiblesMinValue--
 --Output from testConstraintTitreNullNombreExemplairesNullNombreExemplairesDisponiblesNull--
---Output from testConstraintNombreExemplairesDisponiblesMinValue--
---Output from testToString--
+--Output from testConstraintTypeDocumentNull--
+--Output from testConstraintNombreExemplairesMinValue--
 --Output from testConstraintsValidees--
 --Output from testConstraintTitreNull--
+--Output from testToString--
 </pre>
 </div>
 </div>
@@ -669,42 +635,12 @@ Possible solutions: ajouterLivre(int)
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testEdit</b>
+<span class="icon success"></span><b class="testname message success">testList</b>
 </p>
-<p class="summary">Executed in 0.362 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testUpdate</b>
-</p>
-<p class="summary">Executed in 0.081 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testSave">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testSave</b>
-</p>
-<p class="summary">Executed in 0.056 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testDelete">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testDelete</b>
-</p>
-<p class="summary">Executed in 0.115 seconds.</p>
+<p class="summary">Executed in 0.246 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -714,7 +650,37 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testCreate</b>
 </p>
-<p class="summary">Executed in 0.053 seconds.</p>
+<p class="summary">Executed in 0.076 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testSave</b>
+</p>
+<p class="summary">Executed in 0.104 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.069 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testEdit</b>
+</p>
+<p class="summary">Executed in 0.057 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -724,17 +690,7 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testShow</b>
 </p>
-<p class="summary">Executed in 0.091 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testList</b>
-</p>
-<p class="summary">Executed in 0.067 seconds.</p>
+<p class="summary">Executed in 0.061 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -744,7 +700,17 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testIndex</b>
 </p>
-<p class="summary">Executed in 0.071 seconds.</p>
+<p class="summary">Executed in 0.079 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testDelete</b>
+</p>
+<p class="summary">Executed in 0.062 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -752,85 +718,26 @@ Possible solutions: ajouterLivre(int)
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="stdout">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
+--Output from testDelete--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="syserr">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testsuite success">
-<div class="header">
-<h2>ReservationTests</h2>
-<h3>
-                        Executed
-                        3
-                        tests
-                    
-                        without a single error or failure!
-                    </h3>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testToString</b>
-</p>
-<p class="summary">Executed in 0.083 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintsValidees">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testConstraintsValidees</b>
-</p>
-<p class="summary">Executed in 0.017 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintCodeNull">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testConstraintCodeNull</b>
-</p>
-<p class="summary">Executed in 0.013 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from testToString--
---Output from testConstraintsValidees--
---Output from testConstraintCodeNull--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from testToString--
---Output from testConstraintsValidees--
---Output from testConstraintCodeNull--
+--Output from testDelete--
 </pre>
 </div>
 </div>
@@ -847,22 +754,22 @@ Possible solutions: ajouterLivre(int)
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testEdit</b>
+<span class="icon success"></span><b class="testname message success">testList</b>
 </p>
-<p class="summary">Executed in 0.287 seconds.</p>
+<p class="summary">Executed in 0.268 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testUpdate</b>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
 </p>
-<p class="summary">Executed in 0.073 seconds.</p>
+<p class="summary">Executed in 0.064 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -872,7 +779,47 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testSave</b>
 </p>
-<p class="summary">Executed in 0.062 seconds.</p>
+<p class="summary">Executed in 0.104 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.064 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testEdit</b>
+</p>
+<p class="summary">Executed in 0.057 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testShow</b>
+</p>
+<p class="summary">Executed in 0.057 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.048 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -887,69 +834,29 @@ Possible solutions: ajouterLivre(int)
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testCreate</b>
-</p>
-<p class="summary">Executed in 0.046 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testShow">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testShow</b>
-</p>
-<p class="summary">Executed in 0.051 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testList</b>
-</p>
-<p class="summary">Executed in 0.047 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testIndex</b>
-</p>
-<p class="summary">Executed in 0.047 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="stdout">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
+--Output from testDelete--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testEdit--
---Output from testUpdate--
---Output from testSave--
---Output from testDelete--
+<pre class="syserr">--Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testEdit--
 --Output from testShow--
---Output from testList--
 --Output from testIndex--
+--Output from testDelete--
 </pre>
 </div>
 </div>
@@ -966,22 +873,12 @@ Possible solutions: ajouterLivre(int)
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testToString</b>
-</p>
-<p class="summary">Executed in 0.079 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
 <div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintsValidees">
 <div class="grid_3 alpha">
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintsValidees</b>
 </p>
-<p class="summary">Executed in 0.011 seconds.</p>
+<p class="summary">Executed in 0.056 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -991,7 +888,7 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintIntituleBlank</b>
 </p>
-<p class="summary">Executed in 0.009 seconds.</p>
+<p class="summary">Executed in 0.01 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -1001,7 +898,17 @@ Possible solutions: ajouterLivre(int)
 <p>
 <span class="icon success"></span><b class="testname message success">testConstraintIntituleNull</b>
 </p>
-<p class="summary">Executed in 0.008 seconds.</p>
+<p class="summary">Executed in 0.009 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testToString</b>
+</p>
+<p class="summary">Executed in 0.009 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -1009,18 +916,18 @@ Possible solutions: ajouterLivre(int)
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testToString--
---Output from testConstraintsValidees--
+<pre class="stdout">--Output from testConstraintsValidees--
 --Output from testConstraintIntituleBlank--
 --Output from testConstraintIntituleNull--
+--Output from testToString--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testToString--
---Output from testConstraintsValidees--
+<pre class="syserr">--Output from testConstraintsValidees--
 --Output from testConstraintIntituleBlank--
 --Output from testConstraintIntituleNull--
+--Output from testToString--
 </pre>
 </div>
 </div>

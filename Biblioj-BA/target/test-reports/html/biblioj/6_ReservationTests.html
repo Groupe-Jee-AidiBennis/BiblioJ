@@ -2,7 +2,7 @@
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>
-                    Test - InitialisationServiceTests</title>
+                    Test - ReservationTests</title>
 <link rel="shortcut icon" href="http://grails.org/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
 </head>
@@ -12,7 +12,7 @@
 <a title="Home" href="../index.html">
 <div class="grailslogo"></div>
 </a>
-<h1>InitialisationServiceTests</h1>
+<h1>ReservationTests</h1>
 <h2>Package: biblioj</h2>
 </div>
 <div class="grid_2">
@@ -35,31 +35,65 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite failure">
+<div class="testsuite error">
 <div class="header">
-<h2>InitialisationServiceTests</h2>
+<h2>ReservationTests</h2>
 <h3>
-                        A single test executed
+                        Executed
+                        4
+                        tests
                     
                         with
-                        one failure
+                        one error
                         .
                     </h3>
 </div>
-<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintsValidees">
 <div class="grid_3 alpha">
 <p>
-<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+<span class="icon success"></span><b class="testname message success">testConstraintsValidees</b>
 </p>
-<p class="summary">Executed in 0.029 seconds.</p>
+<p class="summary">Executed in 0.067 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testConstraintCodeNull">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testConstraintCodeNull</b>
+</p>
+<p class="summary">Executed in 0.011 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testToString">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testToString</b>
+</p>
+<p class="summary">Executed in 0.011 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="testSupprimer">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">testSupprimer</b>
+</p>
+<p class="summary">Executed in 0.024 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
 <p>
-<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+<b class="message">No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()</b>
 </p>
-<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at biblioj.InitialisationServiceTests.testSomething(InitialisationServiceTests.groovy:15)
+<pre>groovy.lang.MissingMethodException: No signature of method: biblioj.TypeDocument.save() is applicable for argument types: () values: []
+Possible solutions: save(), save(boolean), save(java.util.Map), wait(), last(), any()
+	at biblioj.ReservationTests.testSupprimer(ReservationTests.groovy:40)
 </pre>
 </div>
 </div>
@@ -68,12 +102,18 @@
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testSomething--
+<pre class="stdout">--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
+--Output from testToString--
+--Output from testSupprimer--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testSomething--
+<pre class="syserr">--Output from testConstraintsValidees--
+--Output from testConstraintCodeNull--
+--Output from testToString--
+--Output from testSupprimer--
 </pre>
 </div>
 </div>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.TypeDocumentTests" tests="4" time="0.111" timestamp="2014-04-21T03:13:35">
+<testsuite errors="0" failures="0" hostname="XERS-PC" name="biblioj.TypeDocumentTests" tests="4" time="0.088" timestamp="2014-04-22T22:31:57">
   <properties />
-  <testcase classname="biblioj.TypeDocumentTests" name="testToString" time="0.079" />
-  <testcase classname="biblioj.TypeDocumentTests" name="testConstraintsValidees" time="0.011" />
-  <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleBlank" time="0.009" />
-  <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleNull" time="0.008" />
-  <system-out><![CDATA[--Output from testToString--
---Output from testConstraintsValidees--
+  <testcase classname="biblioj.TypeDocumentTests" name="testConstraintsValidees" time="0.056" />
+  <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleBlank" time="0.01" />
+  <testcase classname="biblioj.TypeDocumentTests" name="testConstraintIntituleNull" time="0.009" />
+  <testcase classname="biblioj.TypeDocumentTests" name="testToString" time="0.009" />
+  <system-out><![CDATA[--Output from testConstraintsValidees--
 --Output from testConstraintIntituleBlank--
 --Output from testConstraintIntituleNull--
+--Output from testToString--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testToString--
---Output from testConstraintsValidees--
+  <system-err><![CDATA[--Output from testConstraintsValidees--
 --Output from testConstraintIntituleBlank--
 --Output from testConstraintIntituleNull--
+--Output from testToString--
 ]]></system-err>
 </testsuite>
